@@ -10,9 +10,9 @@ const Home = () => {
     <div className=" min-h-screen ">
       <Header />
       <div className="fixed -z-20 h-screen w-screen bg-[url('https://res.cloudinary.com/djcbpkxwh/image/upload/v1749905301/coolbackgrounds-particles-filigree_t9byi5.png')] bg-no-repeat bg-cover bg-center blur-sm">
-        {/* <img className="" src="https://res.cloudinary.com/djcbpkxwh/image/upload/v1749905301/coolbackgrounds-particles-filigree_t9byi5.png" alt="" /> */}
+        
       </div>
-      <div className="w-screen h-[40vw] flex items-center">
+      <div className=" p-20">
 
       <HomeInfo/>
       </div>

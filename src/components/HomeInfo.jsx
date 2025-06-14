@@ -9,7 +9,7 @@ const HomeInfo = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.2 }}
-        className="     "
+        className=" "
       >
         <div className="flex justify-center ">
           <h1 className="text-7xl font-custom text-violet-800">
@@ -17,10 +17,10 @@ const HomeInfo = () => {
               cursor={true}
               loop={false}
               words={[
-                "Frontend developer.",
-                "React & Tailwind lover.",
-                "UX-focused builder.",
-                "AI meets frontend.",
+                  "Frontend Developer.",
+  "Building with React & Tailwind.",
+  "Turning ideas into UIs.",
+  "Exploring AI + Web."
               ]}
               cursorBlinking={true}
             />
@@ -40,16 +40,12 @@ const HomeInfo = () => {
                   <span className="block text-4xl">
                     👋 Hey there! I'm Surya kiran
                   </span>
-                  I'm a passionate Frontend Developer with a strong foundation
-                  in React.js, JavaScript, and Tailwind CSS. I enjoy building
-                  clean, responsive, and interactive user interfaces that solve
-                  real problems. I'm currently exploring AI-integrated web apps
-                  and enhancing my UI animations using Framer Motion. 
-                  <span className="block">I'm
+                  I'm a frontend developer who enjoys building sleek and accessible web interfaces. I focus on writing clean code, optimizing performance, and making users smile. I'm currently open to internships where I can learn, grow, and make an impact with code.
+                  {/* <span className="block">I'm
                   actively looking for internship opportunities where I can
                   contribute, learn, and grow alongside experienced developers.
                   My goal is to be part of a team that values creativity,
-                  performance, and user-centric design.</span>
+                  performance, and user-centric design.</span> */}
                 </p>
               </div>
               
