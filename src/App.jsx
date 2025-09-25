@@ -1,31 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Linkedin } from 'lucide-react'
-import { createBrowserRouter,RouterProvider } from 'react-router'
-import Home from './components/Home'
-import Projects from './components/Projects'
-
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Home from './components/Home';
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
-    const appRoute = createBrowserRouter([
-      {
-        path:"/",
-        element:<Home/>
-      },
-      {
-        path:"/projects",
-        element:<Projects/>
-      }
-    ])
+  const appRoute = createBrowserRouter([
+    {
+      path: "/",
+      element: <Home />
+    },
+    {
+      path: "/about",
+      element: <About />
+    },
+    {
+      path: "/projects",
+      element: <Projects />
+    },
+    {
+      path: "/contact",
+      element: <Contact />
+    }
+  ]);
 
   return (
     <>
-      <div>
-          <RouterProvider router={appRoute}></RouterProvider>
-      </div>
+      <RouterProvider router={appRoute} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

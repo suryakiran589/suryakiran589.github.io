@@ -1,26 +1,72 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Header from "./Header";
-import { techDetails } from "../utils/constants";
+import { techStack } from "../utils/constants";
 import TechIcon from "./TechIcon";
-import { motion } from "motion/react";
-import HomeInfo from "./HomeInfo";
 
 const Home = () => {
   return (
-    <div className=" min-h-screen ">
+    <div className="min-h-screen bg-white">
       <Header />
-      <div className="fixed -z-20 h-screen w-screen bg-[url('https://res.cloudinary.com/djcbpkxwh/image/upload/v1749905301/coolbackgrounds-particles-filigree_t9byi5.png')] bg-no-repeat bg-cover bg-center blur-sm">
-        
+      
+      <div className="min-h-screen pt-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <div className="space-y-4">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                  Frontend Developer
+                </h1>
+                <p className="text-xl text-gray-600 leading-relaxed">
+                  Building beautiful, responsive web interfaces with React & Tailwind CSS
+                </p>
+              </div>
+              
+              <div className="space-y-4">
+                <h2 className="text-2xl font-semibold text-gray-900">👋 Hey there! I'm Surya Kiran</h2>
+                <p className="text-gray-600 leading-relaxed">
+                  I'm a passionate frontend developer who enjoys creating sleek and accessible web interfaces. 
+                  I focus on writing clean code, optimizing performance, and creating delightful user experiences. 
+                  Currently seeking internship opportunities to learn, grow, and make an impact with code.
+                </p>
+              </div>
+              
+              <div className="flex flex-wrap gap-4 pt-6">
+                <Link 
+                  to="/projects"
+                  className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
+                >
+                  View Projects
+                </Link>
+                <Link 
+                  to="/contact"
+                  className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors"
+                >
+                  Get In Touch
+                </Link>
+              </div>
+            </div>
+            
+            <div className="flex justify-center">
+              <img
+                src="https://res.cloudinary.com/djcbpkxwh/image/upload/v1749816405/profile_2_hubz22.jpg"
+                alt="Surya Kiran"
+                className="w-80 h-80 object-cover rounded-2xl shadow-lg"
+              />
+            </div>
+          </div>
+          
+          {/* Tech Stack */}
+          <div className="mt-20">
+            <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">Technologies I Work With</h3>
+            <div className="grid grid-cols-4 sm:grid-cols-8 gap-6">
+              {techStack.map((tech, index) => (
+                <TechIcon key={tech.name} index={index} tech={tech} />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
-      <div className=" p-20">
-
-      <HomeInfo/>
-      </div>
-      <motion.div  className="flex justify-evenly">
-                {techDetails.map((tech,index) => (
-                  <TechIcon key={tech.name} index={index} img_url={tech.img_url} />
-                ))}
-              </motion.div>
     </div>
   );
 };
