@@ -4,6 +4,7 @@ import { Github, Linkedin, Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const resumeLink ="https://drive.google.com/file/d/1rHgao6QrT5jLvTvh1SBu9RVMAY6LlDmC/view?usp=drive_link"
 
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
@@ -59,7 +60,7 @@ const Header = () => {
             </Link>
 
          <a 
-                href="https://drive.google.com/file/d/1BOdIMHpwt_QedoPAbutlZWR1uBedg-1V/view?usp=drive_link" 
+                href={resumeLink}
                 
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -111,7 +112,7 @@ const Header = () => {
                 Contact
               </Link>
               <a 
-                href="https://drive.google.com/file/d/1BOdIMHpwt_QedoPAbutlZWR1uBedg-1V/view?usp=drive_link" 
+                href={resumeLink}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className=" bg-gray-900 text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition-colors w-fit"
