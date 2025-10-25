@@ -18,16 +18,23 @@ const Home = () => {
                   Frontend Developer
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  Building beautiful, responsive web interfaces with React & Tailwind CSS
+                  Specializing in React, TypeScript, and performance-optimized web applications
                 </p>
               </div>
               
               <div className="space-y-4">
-                <h2 className="text-2xl font-semibold text-gray-900">👋 Hey there! I'm Surya Kiran</h2>
+                <h2 className="text-2xl font-semibold text-gray-900">Hi, I'm Surya Kiran Kommoju</h2>
                 <p className="text-gray-600 leading-relaxed">
-                  I'm a passionate frontend developer who enjoys creating sleek and accessible web interfaces. 
-                  I focus on writing clean code, optimizing performance, and creating delightful user experiences. 
-                  Currently seeking internship opportunities to learn, grow, and make an impact with code.
+                  I craft production-ready applications with React and TypeScript, focusing on 
+                  efficient state management, API integration, and performance optimization. 
+                  My work includes implementing JWT authentication, Redux Toolkit for complex state, 
+                  and responsive interfaces with Tailwind CSS.
+                </p>
+                <p className="text-gray-600 leading-relaxed">
+                  Experience with full-stack development using Node.js and MongoDB, AI API integration 
+                  (DeepSeek, TMDB), and optimization techniques like memoization and debouncing for 
+                  seamless user experiences. Currently seeking opportunities to contribute to 
+                  early-stage startups building impactful products.
                 </p>
               </div>
               
