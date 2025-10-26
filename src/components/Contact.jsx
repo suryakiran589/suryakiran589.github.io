@@ -87,7 +87,7 @@ const Contact = () => {
                     <MapPin size={20} className="text-blue-600 mt-1 flex-shrink-0" />
                     <div>
                       <div className="font-medium text-gray-900">Location</div>
-                      <div className="text-sm text-gray-600">Secunderabad, India (IST/GMT+5:30)</div>
+                      <div className="text-sm text-gray-600">Anakapalle, AP, India </div>
                     </div>
                   </div>
                   

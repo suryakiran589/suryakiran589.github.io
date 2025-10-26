@@ -4,7 +4,7 @@ import { Github, Linkedin, Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const resumeLink ="https://drive.google.com/file/d/1rHgao6QrT5jLvTvh1SBu9RVMAY6LlDmC/view?usp=drive_link"
+  const resumeLink ="https://drive.google.com/file/d/1ZpOcdtevwZoT-HvTX4eOUGzvuNh5qOyr/view?usp=drive_link"
 
   return (
     <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-gray-100">
