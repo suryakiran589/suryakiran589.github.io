@@ -80,8 +80,17 @@ export const projectsData = [
     live: "https://gptflix-v1.netlify.app",
     image: "https://res.cloudinary.com/djcbpkxwh/image/upload/v1758790734/Screenshot_2025-06-27_at_10.58.00_PM_xkrkmy.png"
   },
+{
+  id: 3,
+  title: "RedditInsight - AI-Powered Reddit Post Summarizer",
+  description: "Built a tool where users can paste any Reddit post URL and instantly get an AI-generated summary. Implemented a full TypeScript codebase across both backend (Node.js) and frontend (React + Vite). Integrated Gemini API for summarization, added clean UI/UX, and handled CORS + Reddit API fetching through a secure backend.",
+  tech: ["TypeScript", "React", "Vite", "Node.js", "Express", "Tailwind CSS", "Gemini API", "API Integration"],
+  github: "https://github.com/suryakiran589/RedditSummarizer",
+  live: "https://redditinsight-v1.netlify.app/",
+  image: "https://res.cloudinary.com/djcbpkxwh/image/upload/v1763313068/Screenshot_2025-11-09_at_12.39.35_AM_yy8ffn.png"
+},
    {
-  id: 3, 
+  id: 4, 
   title: "QuickKart - Effortless Product Filtering",
   description: "Built an e-commerce interface with React, TypeScript, and Tailwind CSS featuring multi-criteria filtering and dynamic sorting. Optimized performance using useMemo for memoized filter results and debounced search for real-time product discovery.",
   tech: ["React", "TypeScript", "Tailwind CSS","DummyJson API"],
@@ -90,7 +99,7 @@ export const projectsData = [
   image: "https://res.cloudinary.com/djcbpkxwh/image/upload/v1761371536/Screenshot_2025-10-24_at_3.39.40_PM_tjd6fn.png"
 },
   {
-    id: 4,
+    id: 5,
     title: "GitProfile Finder - GitHub User Search Tool",
     description: "Developed a GitHub user lookup application that fetches and displays comprehensive user profile information via the GitHub API, providing an intuitive interface for searching and exploring user repositories and details.",
     tech: ["React", "Vite", "Tailwind CSS", "GitHub API"],
@@ -101,7 +110,7 @@ export const projectsData = [
   
  
 {
-  id: 5,
+  id: 6,
   title: "Freelance Project: landing page for Grilling and Safety nets",
   description: "Built a responsive website for a freelance client using React, Tailwind CSS, and Vite. Implemented contact forms, animations, and optimized SEO.",
   tech: ["React","TypeScript", "Tailwind CSS", "Vite"],
@@ -110,7 +119,7 @@ export const projectsData = [
   image: "https://res.cloudinary.com/djcbpkxwh/image/upload/v1758790722/Screenshot_2025-08-02_at_2.03.05_PM_hldmaw.png"
 },
 {
-  id: 6,
+  id: 7,
   title: "Custom Pagination Component",
   description: "Reusable React pagination component supporting dynamic data, page navigation, and responsive design. Implemented with TypeScript and Tailwind CSS.",
   tech: ["React", "TypeScript", "Tailwind CSS"],

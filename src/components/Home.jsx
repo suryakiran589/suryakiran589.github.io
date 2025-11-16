@@ -15,7 +15,7 @@ const Home = () => {
             <div className="space-y-6">
               <div className="space-y-4">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                  Frontend Developer
+                  Frontend Engineer
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
                   Specializing in React, TypeScript, and performance-optimized web applications
@@ -24,18 +24,14 @@ const Home = () => {
               
               <div className="space-y-4">
                 <h2 className="text-2xl font-semibold text-gray-900">Hi, I'm Surya Kiran Kommoju</h2>
-                <p className="text-gray-600 leading-relaxed">
-                  I craft production-ready applications with React and TypeScript, focusing on 
-                  efficient state management, API integration, and performance optimization. 
-                  My work includes implementing JWT authentication, Redux Toolkit for complex state, 
-                  and responsive interfaces with Tailwind CSS.
-                </p>
-                <p className="text-gray-600 leading-relaxed">
-                  Experience with full-stack development using Node.js and MongoDB, AI API integration 
-                  (DeepSeek, TMDB), and optimization techniques like memoization and debouncing for 
-                  seamless user experiences. Currently seeking opportunities to contribute to 
-                  early-stage startups building impactful products.
-                </p>
+                <p class="text-gray-600 leading-relaxed">
+  I build production-ready applications with <strong>React</strong> and <strong>TypeScript</strong>, focusing on 
+  clean <strong>state management</strong>, smooth <strong>API integration</strong>, and strong <strong>performance optimization</strong>. 
+  Experienced with <strong>Redux Toolkit</strong>, <strong>JWT authentication</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>, along with 
+  AI API integrations. Currently seeking opportunities with fast-moving, early-stage teams.
+</p>
+
+          
               </div>
               
               <div className="flex flex-wrap gap-4 pt-6">
